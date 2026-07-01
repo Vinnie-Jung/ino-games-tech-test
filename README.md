@@ -90,12 +90,12 @@ All valid combinations (paying + surviving wild) are merged and sorted ascending
 <div align="center">
 
 | Scenario                                    | Example                    | Expected                         |
-| :------------------------------------------ | :------------------------: | :------------------------------: |
-| Wilds on both sides of paying symbol        | <code>[0,0,0,3,3,3]</code> | [[3, [0.1.2.3.4.5]]]             |
-| Wilds only at beginning                     | <code>[0,0,0,0,0,8]</code> | [[8, [0,1,2,4]]]                 |
-| Wilds only at end                           | <code>[8,0,0,0,0,0]</code> | [[8, [0,1,2,3,4]]]               |
-| All wilds                | 0                | <code>[0,0,0,0,0,0]</code> | [[0, [0,1,2,3,4]]]               |
-| Wilds bridging two different paying symbols | <code>[1,1,0,0,3,3]</code> | [[1, [0,1,2,3]], [3, [2,3,4,5]]] |
+| :------------------------------------------ | :------------------------: | :--------------------------------------------------------: |
+| Wilds on both sides of paying symbol        | <code>[0,0,0,3,3,3]</code> | <code>[[3, [0.1.2.3.4.5]]]</code>                          |
+| Wilds only at beginning                     | <code>[0,0,0,0,0,8]</code> | <code>[[8, [0,1,2,4]]]</code>                              |
+| Wilds only at end                           | <code>[8,0,0,0,0,0]</code> | <code>[[8, [0,1,2,3,4]]]</code>                            |
+| All wilds                | 0                | <code>[0,0,0,0,0,0]</code> | <code>[[0, [0,1,2,3,4]]]</code>                            |
+| Wilds bridging two different paying symbols | <code>[1,1,0,0,3,3]</code> | <code>[[1, [0,1,2,3]]</code>, <code>[3, [2,3,4,5]]]</code> |
 
 </div>
 
