@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "target": "es6",
+        "experimentalDecorators": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "types": [
+            "vitest/globals"
+        ]
+    },
+    "exclude": [
+        "**/node_modules/**",
+        "**/dist/**"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "test-js",
+  "version": "1.0.0",
+  "description": "Technical assessment challenges for slot machine game development",
+  "author": "Ino Games",
+  "main": "index.js",
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:winning": "vitest run WinningCombinations/tests/winning-combinations.test.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
